@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+.card {
+    position: relative;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    overflow: hidden;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 20px;
+    color: #333;
+    transition: transform 0.2s, box-shadow 0.2s;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.card h1 {
+    font-size: 28px; /* Increase the font size */
+    margin: 10px 0;
+    font-family: 'Inconsolata', monospace;
+    background: linear-gradient(45deg, #FFB800, #0a0a0a); /* Gradient color */
+    background-clip: text; /* Clip the gradient to the text */
+    -webkit-background-clip: text; /* For Safari support */
+    color: transparent; /* Make the text transparent to show the gradient */
+}
+
+.card p {
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+.card button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
